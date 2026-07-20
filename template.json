@@ -75,7 +75,7 @@
   "Item": {
     "types": [
       "item",
-      "feature",
+      "skill",
       "spell"
     ],
     "templates": {
