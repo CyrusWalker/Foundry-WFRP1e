@@ -4,18 +4,14 @@
   "description": "The Warhammer Fantasy Roleplay, 1st Edition system for FoundryVTT!",
   "authors": [
     {
-      "name": "Asacolips",
-      "discord": "asacolips"
-    },
-    {
-      "name": "Lee Talman",
-      "discord": ".pizzaWizard"
+      "name": "CyTheGuy",
+      "discord": "cy_the_guy"
     }
   ],
-  "url": "Replace this with a link to your public repository",
+  "url": "https://github.com/CyrusWalker/Foundry-WFRP1e",
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "bugs": "Replace this with a link to file issues or tickets",
+  "bugs": "https://github.com/CyrusWalker/Foundry-WFRP1e/issues",
   "changelog": "CHANGELOG.md",
   "media": [
     {
@@ -41,8 +37,8 @@
   "packs": [],
   "packFolders": [],
   "socket": false,
-  "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
-  "download": "This must link to a .zip file of the current version",
+  "manifest": "https://github.com/CyrusWalker/Foundry-WFRP1e/blob/main/system.json",
+  "download": "https://github.com/CyrusWalker/Foundry-WFRP1e/archive/refs/heads/main.zip",
   "background": "systems/wfrp-1e/assets/anvil-impact.png",
   "gridDistance": 5,
   "gridUnits": "ft",
