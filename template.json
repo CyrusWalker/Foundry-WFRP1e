@@ -1,8 +1,87 @@
 {
   "Actor": {
-    "types": ["character", "npc"]
+    "types": [
+      "playerCharacter",
+      "npc"
+    ],
+    "templates": {
+      "base": {
+        "movement": {
+          "value": 4
+        },
+        "weaponSkill": {
+          "value": 20,
+          "max": 100
+        },
+        "ballisticSkill": {
+          "value": 20,
+          "max": 100
+        },
+        "strength": {
+          "value": 1,
+          "max": 10
+        },
+        "toughness": {
+          "value": 1,
+          "max": 10
+        },
+        "wounds": {
+          "value": 6
+        },
+        "initiative": {
+          "value": 20,
+          "max": 100
+        },
+        "attacks": {
+          "value": 1
+        },
+        "dexterity": {
+          "value": 20,
+          "max": 100
+        },
+        "leadership": {
+          "value": 20,
+          "max": 100
+        },
+        "intelligence": {
+          "value": 20,
+          "max": 100
+        },
+        "cool": {
+          "value": 20,
+          "max": 100
+        },
+        "willPower": {
+          "value": 20,
+          "max": 100
+        },
+        "fellowship": {
+          "value": 20,
+          "max": 100
+        }
+      },
+      "playerCharacter": {
+        "templates": [
+          "base"
+        ]
+      },
+      "npc": {
+        "templates": [
+          "base"
+        ]
+      }
+    }
   },
   "Item": {
-    "types": ["item", "feature", "spell"]
+    "types": [
+      "item",
+      "feature",
+      "spell"
+    ],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    }
   }
 }
