@@ -81,6 +81,18 @@
     "templates": {
       "base": {
         "description": ""
+      },
+      "item": {
+        "cost": 0,
+        "encumberance": 0,
+        "availability": "common"
+      },
+      "spell": {
+        "spellLevel": 0,
+        "magicPoints": 0,
+        "range": "10",
+        "duration": "instant",
+        "ingredients": []
       }
     }
   }
